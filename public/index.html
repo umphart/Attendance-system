@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Attendance System</h1>
+            <p>Mark the attendance for your class.</p>
+        </header>
+        
+        <div class="attendance-form">
+            <input type="text" id="studentName" placeholder="Enter Student Name" class="input-field">
+            <button onclick="markAttendance()" class="btn">Mark Attendance</button>
+        </div>
+
+        <div class="attendance-list">
+            <h2>Students Present</h2>
+            <ul id="attendanceList"></ul>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
